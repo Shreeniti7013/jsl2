@@ -1,0 +1,25 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <p>local parameter</p>
+    <button type="button"  onclick="f1()">button</button>
+    <p id="id1"></p>
+    <p id="id2"></p>
+
+    <script>
+  var n1=10
+  function f1() {
+    var n2=5
+    sum=n1+n2
+    document.getElementById("id1").innerHTML="Sum="+sum
+  }
+    document.getElementById("id2").innerHTML = "Num1=" +n1
+        document.getElementById("id2").innerHTML = "Num2=" +n2
+    </script>
+  </body>
+  </html>
